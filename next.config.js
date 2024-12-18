@@ -5,7 +5,7 @@ const nextConfig = {
       {
         source: '/sathish',
         destination: 'https://csc-admin-test.netlify.app',
-        permanent: false, // Use false to prevent a permanent redirect (keeps the browser URL)
+        permanent: true, // Use false to prevent a permanent redirect (keeps the browser URL)
       },
     ];
   },
