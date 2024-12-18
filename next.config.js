@@ -1,5 +1,14 @@
 const nextConfig = {
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/sathish',
+        destination: 'https://csc-admin-test.netlify.app',
+        permanent: false, // Use false to prevent a permanent redirect (keeps the browser URL)
+      },
+    ];
+  },
   webpack: (config) => {
     config.resolve.alias["@"] = __dirname;
     return config;
