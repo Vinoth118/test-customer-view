@@ -1,0 +1,9 @@
+.heroContainer {
+    /* Your base styles */
+  }
+  
+  @media (max-width: 768px) {
+    .heroContainer {
+      /* Responsive styles for smaller screens */
+    }
+  }
